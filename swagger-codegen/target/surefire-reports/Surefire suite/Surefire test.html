@@ -1,0 +1,1083 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>194/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 31 19:20:13 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>3 seconds (3037 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.arrayModelTest()'><b>arrayModelTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert an array model</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.arrayModelWithItemNameTest()'><b>arrayModelWithItemNameTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a model with an array property with item name</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.utils.SemVerTest.atLeast()'><b>atLeast</b><br>Test class: io.swagger.codegen.utils.SemVerTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.utils.SemVerTest@5a1c0542</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.binaryDataTest()'><b>binaryDataTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: return byte array when response format is byte</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.binaryDataTest()'><b>binaryDataTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a model with binary data</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.booleanParameterTest()'><b>booleanParameterTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a boolean parameter</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.camelizeNamesTest()'><b>camelizeNamesTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: test camelize</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaClientOptionsTest.checkOptionsHelp()'><b>checkOptionsHelp</b><br>Test class: io.swagger.codegen.java.JavaClientOptionsTest<br>Test method: check if all options described in documentation are presented in test case</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaClientOptionsTest@48503868</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaClientOptionsTest.checkOptionsProcessing()'><b>checkOptionsProcessing</b><br>Test class: io.swagger.codegen.java.JavaClientOptionsTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaClientOptionsTest@48503868</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.classPropertyTest()'><b>classPropertyTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: handle 'class' properties<br>Parameters: class, getPropertyClass, setPropertyClass, propertyClass</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.classPropertyTest()'><b>classPropertyTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: handle 'class' properties<br>Parameters: _class, getPropertyClass, setPropertyClass, propertyClass</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.classPropertyTest()'><b>classPropertyTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: handle 'class' properties<br>Parameters: __class, getPropertyClass, setPropertyClass, propertyClass</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.ClientAuthInputTest.clientAuthInputTest()'><b>clientAuthInputTest</b><br>Test class: io.swagger.codegen.ClientAuthInputTest<br>Test method: read a file upload param from a 2.0 spec</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ClientAuthInputTest@627551fb</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.complexListPropertyTest()'><b>complexListPropertyTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a model with complex list property</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.complexMapPropertyTest()'><b>complexMapPropertyTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a model with complex map property</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.complexPropertiesTest()'><b>complexPropertiesTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a model with complex properties</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.convertParameterTest()'><b>convertParameterTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a parameter</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelEnumTest.converterTest()'><b>converterTest</b><br>Test class: io.swagger.codegen.java.JavaModelEnumTest<br>Test method: convert a java model with an enum</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelEnumTest@184f6be2</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.deprecatedParamTest()'><b>deprecatedParamTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: isDeprecated is present</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.discriminatorTest()'><b>discriminatorTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: discriminator is present</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.enumArrayQueryParameterTest()'><b>enumArrayQueryParameterTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: handle enum array in query parameter test</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.enumQueryParameterTest()'><b>enumQueryParameterTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: handle enum in query parameter test</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.escapeNamesTest()'><b>escapeNamesTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: properly escape names per 567</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@131276c2</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@1c3a4799</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@1e6d1014</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@1f554b06</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@26aa12dd</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@2a17b7b6</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@30b8a058</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@3fd7a715</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@4bbfb90a</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@4f063c0a</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@51cdd8a</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@5a8806ef</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@5d76b067</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@5e853265</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@614ddd49</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@67205a84</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@68bbe345</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@694e1548</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@6c49835d</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@711f39f9</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@71bbf57e</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@7494e528</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@76707e36</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@7c29daf3</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@7d0587f1</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@7f13d6e</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.CodegenIgnoreProcessorTest.evaluate()'><b>evaluate</b><br>Test class: io.swagger.codegen.ignore.CodegenIgnoreProcessorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@9660f4e</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.fileResponeseTest()'><b>fileResponeseTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: return file when response format is file</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.fileUploadParamTest()'><b>fileUploadParamTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: read a file upload param from a 2.0 spec</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.firstTwoUpperCaseLetterNamesTest()'><b>firstTwoUpperCaseLetterNamesTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a model starting with two upper-case letter property names</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.formParamTest()'><b>formParamTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: read formParam values from a 2.0 spec</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.globalConsumesAndProducesTest()'><b>globalConsumesAndProducesTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: use spec consumes and produces</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.hyphensTest()'><b>hyphensTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert hyphens per issue 503</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.inheritanceOfComposedModelTest()'><b>inheritanceOfComposedModelTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: handle inheritance from composed model</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.invalidParamNameTest()'><b>invalidParamNameTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: translate an invalid param name</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaInheritanceTest.javaInheritanceTest()'><b>javaInheritanceTest</b><br>Test class: io.swagger.codegen.java.JavaInheritanceTest<br>Test method: convert a composed model with parent</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaInheritanceTest@6895a785</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaInheritanceTest.javaInheritanceWithDiscriminatorTest()'><b>javaInheritanceWithDiscriminatorTest</b><br>Test class: io.swagger.codegen.java.JavaInheritanceTest<br>Test method: convert a composed model with discriminator</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaInheritanceTest@6895a785</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.list2DPropertyTest()'><b>list2DPropertyTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a model with a 2D list property</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.listPropertyTest()'><b>listPropertyTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a model with list property</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.localConsumesAndProducesTest()'><b>localConsumesAndProducesTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: use operation consumes and produces</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.localResetConsumesAndProducesTest()'><b>localResetConsumesAndProducesTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: use operation consumes and produces (reset in operation with empty array)</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.mapModelTest()'><b>mapModelTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert an map model</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.mapPropertyTest()'><b>mapPropertyTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a model with a map property</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.mapWithAnListOfBigDecimalTest()'><b>mapWithAnListOfBigDecimalTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: types used by inner properties should be imported</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.mapWithListPropertyTest()'><b>mapWithListPropertyTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a model with a map with complex list property</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.modelNameTest()'><b>modelNameTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: avoid inner class<br>Parameters: sample, Sample</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.modelNameTest()'><b>modelNameTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: avoid inner class<br>Parameters: sample_name, SampleName</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.modelNameTest()'><b>modelNameTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: avoid inner class<br>Parameters: sample__name, SampleName</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.modelNameTest()'><b>modelNameTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: avoid inner class<br>Parameters: /sample, Sample</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.modelNameTest()'><b>modelNameTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: avoid inner class<br>Parameters: \sample, Sample</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.modelNameTest()'><b>modelNameTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: avoid inner class<br>Parameters: sample.name, SampleName</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.modelNameTest()'><b>modelNameTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: avoid inner class<br>Parameters: _sample, Sample</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.modelNameTest()'><b>modelNameTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: avoid inner class<br>Parameters: Sample, Sample</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.modelWithWrappedXmlTest()'><b>modelWithWrappedXmlTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: test models with wrapped xml</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.modelWithXmlTest()'><b>modelWithXmlTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: test models with xml</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.multiCompositionTest()'><b>multiCompositionTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: handle multi level composition</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.multiInheritanceOfComposedModelTest()'><b>multiInheritanceOfComposedModelTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: handle multi level inheritance from composed model</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.multiInheritanceTest()'><b>multiInheritanceTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: handle multi level inheritance</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.noSupportsInheritanceTest()'><b>noSupportsInheritanceTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: copy properties in multi level inheritance if supportsInheritance is false</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.notResolveNonModelBodyParameter()'><b>notResolveNonModelBodyParameter</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelEnumTest.overrideEnumTest()'><b>overrideEnumTest</b><br>Test class: io.swagger.codegen.java.JavaModelEnumTest<br>Test method: not override identical parent enums</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelEnumTest@184f6be2</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseComment()'><b>parseComment</b><br>Test class: io.swagger.codegen.ignore.rules.IgnoreLineParserTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseComplex()'><b>parseComplex</b><br>Test class: io.swagger.codegen.ignore.rules.IgnoreLineParserTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseDirectoryMarker()'><b>parseDirectoryMarker</b><br>Test class: io.swagger.codegen.ignore.rules.IgnoreLineParserTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseEscapedExclamation()'><b>parseEscapedExclamation</b><br>Test class: io.swagger.codegen.ignore.rules.IgnoreLineParserTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseEscapedSpace()'><b>parseEscapedSpace</b><br>Test class: io.swagger.codegen.ignore.rules.IgnoreLineParserTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseMatchAll()'><b>parseMatchAll</b><br>Test class: io.swagger.codegen.ignore.rules.IgnoreLineParserTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseMatchAny()'><b>parseMatchAny</b><br>Test class: io.swagger.codegen.ignore.rules.IgnoreLineParserTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseNegate()'><b>parseNegate</b><br>Test class: io.swagger.codegen.ignore.rules.IgnoreLineParserTest</td>
+<td><div><pre>io.swagger.codegen.ignore.rules.ParserException: Negation with no negated pattern.
+	at io.swagger.codegen.ignore.rules.IgnoreLineParser.parse(IgnoreLineParser.java:52)
+	at io.swagger.codegen.ignore.rules.IgnoreLineParserTest.verifyInputToSingleToken(IgnoreLineParserTest.java:14)
+	at io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseNegate(IgnoreLineParserTest.java:38)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1883830050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1883830050'><pre>io.swagger.codegen.ignore.rules.ParserException: Negation with no negated pattern.
+	at io.swagger.codegen.ignore.rules.IgnoreLineParser.parse(IgnoreLineParser.java:52)
+	at io.swagger.codegen.ignore.rules.IgnoreLineParserTest.verifyInputToSingleToken(IgnoreLineParserTest.java:14)
+	at io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseNegate(IgnoreLineParserTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseRooted()'><b>parseRooted</b><br>Test class: io.swagger.codegen.ignore.rules.IgnoreLineParserTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseTripleStarPattern()'><b>parseTripleStarPattern</b><br>Test class: io.swagger.codegen.ignore.rules.IgnoreLineParserTest</td>
+<td><div><pre>io.swagger.codegen.ignore.rules.ParserException: The pattern *** is invalid.
+	at io.swagger.codegen.ignore.rules.IgnoreLineParser.parse(IgnoreLineParser.java:74)
+	at io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseTripleStarPattern(IgnoreLineParserTest.java:153)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1487230025", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1487230025'><pre>io.swagger.codegen.ignore.rules.ParserException: The pattern *** is invalid.
+	at io.swagger.codegen.ignore.rules.IgnoreLineParser.parse(IgnoreLineParser.java:74)
+	at io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseTripleStarPattern(IgnoreLineParserTest.java:153)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae</td></tr>
+<tr>
+<td title='io.swagger.codegen.utils.SemVerTest.parsingAndPrinting()'><b>parsingAndPrinting</b><br>Test class: io.swagger.codegen.utils.SemVerTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.utils.SemVerTest@5a1c0542</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.AbstractJavaCodegenTest.preprocessSwaggerWithBodyParamsSetsContentType()'><b>preprocessSwaggerWithBodyParamsSetsContentType</b><br>Test class: io.swagger.codegen.java.AbstractJavaCodegenTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.AbstractJavaCodegenTest@10bbd20a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.AbstractJavaCodegenTest.preprocessSwaggerWithFormParamsSetsContentType()'><b>preprocessSwaggerWithFormParamsSetsContentType</b><br>Test class: io.swagger.codegen.java.AbstractJavaCodegenTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.AbstractJavaCodegenTest@10bbd20a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.AbstractJavaCodegenTest.preprocessSwaggerWithNoFormOrBodyParamsDoesNotSetContentType()'><b>preprocessSwaggerWithNoFormOrBodyParamsDoesNotSetContentType</b><br>Test class: io.swagger.codegen.java.AbstractJavaCodegenTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.AbstractJavaCodegenTest@10bbd20a</td></tr>
+<tr>
+<td title='io.swagger.codegen.ExampleGeneratorTest.recursiveModelsTest()'><b>recursiveModelsTest</b><br>Test class: io.swagger.codegen.ExampleGeneratorTest<br>Test method: check handling of recursive models</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ExampleGeneratorTest@a7e666</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.requiredParametersTest()'><b>requiredParametersTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: handle required parameters from a 2.0 spec as required when figuring out Swagger types</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.resolveInlineArrayBodyParameter()'><b>resolveInlineArrayBodyParameter</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.resolveInlineArrayModelWithTitle()'><b>resolveInlineArrayModelWithTitle</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.resolveInlineArrayModelWithoutTitle()'><b>resolveInlineArrayModelWithoutTitle</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.resolveInlineArrayResponse()'><b>resolveInlineArrayResponse</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.resolveInlineArrayResponseWithTitle()'><b>resolveInlineArrayResponseWithTitle</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.resolveInlineBodyParameter()'><b>resolveInlineBodyParameter</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.resolveInlineBodyParameterWithRequired()'><b>resolveInlineBodyParameterWithRequired</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.resolveInlineBodyParameterWithTitle()'><b>resolveInlineBodyParameterWithTitle</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.resolveInlineModel2DifferentInnerModelsWIthSameTitle()'><b>resolveInlineModel2DifferentInnerModelsWIthSameTitle</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.resolveInlineModel2EqualInnerModels()'><b>resolveInlineModel2EqualInnerModels</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.resolveInlineModelTestWithTitle()'><b>resolveInlineModelTestWithTitle</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.resolveInlineModelTestWithoutTitle()'><b>resolveInlineModelTestWithoutTitle</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.responseSelectionTest1()'><b>responseSelectionTest1</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: select main response from a 2.0 spec using the lowest 2XX code</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.responseSelectionTest2()'><b>responseSelectionTest2</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: select main response from a 2.0 spec using the default keyword when no 2XX code</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.sanitizeTagTest()'><b>sanitizeTagTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: test sanitizeTag</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.secondCharUpperCaseNamesTest()'><b>secondCharUpperCaseNamesTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a model with a 2nd char upper-case property names</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.simpleCompositionTest()'><b>simpleCompositionTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: handle simple composition</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.simpleInheritanceTest()'><b>simpleInheritanceTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: handle simple inheritance</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.simpleModelTest()'><b>simpleModelTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a simple java model</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.squareBracketsTest()'><b>squareBracketsTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert query[password] to queryPassword</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.supportsMixinsTest()'><b>supportsMixinsTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: don't copy interfaces properties if supportsMixins is true</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.SwaggerMigratorTest.swaggerMigratorTest()'><b>swaggerMigratorTest</b><br>Test class: io.swagger.codegen.SwaggerMigratorTest<br>Test method: read a 1.2 spec</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.SwaggerMigratorTest@1f7030a6</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testAdditionalProperties()'><b>testAdditionalProperties</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testApiPackage()'><b>testApiPackage</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testArbitraryObjectBodyParam()'><b>testArbitraryObjectBodyParam</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testArbitraryObjectBodyParamArrayInline()'><b>testArbitraryObjectBodyParamArrayInline</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testArbitraryObjectBodyParamInline()'><b>testArbitraryObjectBodyParamInline</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testArbitraryObjectBodyParamWithArray()'><b>testArbitraryObjectBodyParamWithArray</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testArbitraryObjectModelInline()'><b>testArbitraryObjectModelInline</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testArbitraryObjectModelWithArrayInlineWithTitle()'><b>testArbitraryObjectModelWithArrayInlineWithTitle</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testArbitraryObjectModelWithArrayInlineWithoutTitle()'><b>testArbitraryObjectModelWithArrayInlineWithoutTitle</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testArbitraryObjectResponse()'><b>testArbitraryObjectResponse</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testArbitraryObjectResponseArray()'><b>testArbitraryObjectResponseArray</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testArbitraryObjectResponseArrayInline()'><b>testArbitraryObjectResponseArrayInline</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testArbitraryObjectResponseMapInline()'><b>testArbitraryObjectResponseMapInline</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testArrayResponse()'><b>testArrayResponse</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testArtifactId()'><b>testArtifactId</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testArtifactVersion()'><b>testArtifactVersion</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testBasicInput()'><b>testBasicInput</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testCodegenConfiguratorIsSerializable()'><b>testCodegenConfiguratorIsSerializable</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testDynamicProperties()'><b>testDynamicProperties</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testFromFile()'><b>testFromFile</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.DefaultGeneratorTest.testGenerateUniqueOperationIds()'><b>testGenerateUniqueOperationIds</b><br>Test class: io.swagger.codegen.DefaultGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.DefaultGeneratorTest@57855c9a</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.FileRuleTest.testGlobbingNotRecursive()'><b>testGlobbingNotRecursive</b><br>Test class: io.swagger.codegen.ignore.rules.FileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.FileRuleTest@d44fc21</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.FileRuleTest.testGlobbingRecursive()'><b>testGlobbingRecursive</b><br>Test class: io.swagger.codegen.ignore.rules.FileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.FileRuleTest@d44fc21</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testGroupId()'><b>testGroupId</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testImportMappings()'><b>testImportMappings</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testInlineMapResponse()'><b>testInlineMapResponse</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testInlineMapResponseWithObjectProperty()'><b>testInlineMapResponseWithObjectProperty</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testInlineResponseModel()'><b>testInlineResponseModel</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.InlineModelResolverTest.testInlineResponseModelWithTitle()'><b>testInlineResponseModelWithTitle</b><br>Test class: io.swagger.codegen.InlineModelResolverTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.InlineModelResolverTest@64729b1e</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testInstantiationTypes()'><b>testInstantiationTypes</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testInvokerPackage()'><b>testInvokerPackage</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testLanguageSpecificPrimitives()'><b>testLanguageSpecificPrimitives</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testLibrary()'><b>testLibrary</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenConfigLoaderTest.testLoadByFullQualifiedName()'><b>testLoadByFullQualifiedName</b><br>Test class: io.swagger.codegen.CodegenConfigLoaderTest<br>Parameters: io.swagger.codegen.languages.JMeterCodegen@46044faa</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenConfigLoaderTest@49fc609f</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenConfigLoaderTest.testLoadByFullQualifiedName()'><b>testLoadByFullQualifiedName</b><br>Test class: io.swagger.codegen.CodegenConfigLoaderTest<br>Parameters: io.swagger.codegen.languages.JavaClientCodegen@1358b28e</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenConfigLoaderTest@49fc609f</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenConfigLoaderTest.testLoadByName()'><b>testLoadByName</b><br>Test class: io.swagger.codegen.CodegenConfigLoaderTest<br>Parameters: io.swagger.codegen.languages.JMeterCodegen@1a78dacd</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenConfigLoaderTest@49fc609f</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenConfigLoaderTest.testLoadByName()'><b>testLoadByName</b><br>Test class: io.swagger.codegen.CodegenConfigLoaderTest<br>Parameters: io.swagger.codegen.languages.JavaClientCodegen@19f9d595</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenConfigLoaderTest@49fc609f</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.FileRuleTest.testMatchComplex()'><b>testMatchComplex</b><br>Test class: io.swagger.codegen.ignore.rules.FileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.FileRuleTest@d44fc21</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.RootedFileRuleTest.testMatchFilenameAndExtension()'><b>testMatchFilenameAndExtension</b><br>Test class: io.swagger.codegen.ignore.rules.RootedFileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.RootedFileRuleTest.testMatchFilenameAndExtensionWithExtensionGlob()'><b>testMatchFilenameAndExtensionWithExtensionGlob</b><br>Test class: io.swagger.codegen.ignore.rules.RootedFileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.RootedFileRuleTest.testMatchFilenameAndExtensionWithFilenameGlob()'><b>testMatchFilenameAndExtensionWithFilenameGlob</b><br>Test class: io.swagger.codegen.ignore.rules.RootedFileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.RootedFileRuleTest.testMatchFilenameAndExtensionWithMultiplePeriods()'><b>testMatchFilenameAndExtensionWithMultiplePeriods</b><br>Test class: io.swagger.codegen.ignore.rules.RootedFileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.RootedFileRuleTest.testMatchFilenameOnly()'><b>testMatchFilenameOnly</b><br>Test class: io.swagger.codegen.ignore.rules.RootedFileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.RootedFileRuleTest.testMatchFilenameWithGlob()'><b>testMatchFilenameWithGlob</b><br>Test class: io.swagger.codegen.ignore.rules.RootedFileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.RootedFileRuleTest.testMatchWithoutLeadingForwardSlash()'><b>testMatchWithoutLeadingForwardSlash</b><br>Test class: io.swagger.codegen.ignore.rules.RootedFileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.RootedFileRuleTest.testMatchesOnlyRooted()'><b>testMatchesOnlyRooted</b><br>Test class: io.swagger.codegen.ignore.rules.RootedFileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testModelPackage()'><b>testModelPackage</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.FileRuleTest.testNonMatchComplex()'><b>testNonMatchComplex</b><br>Test class: io.swagger.codegen.ignore.rules.FileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.FileRuleTest@d44fc21</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.RootedFileRuleTest.testNonMatchFilenameAndExtension()'><b>testNonMatchFilenameAndExtension</b><br>Test class: io.swagger.codegen.ignore.rules.RootedFileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.RootedFileRuleTest.testNonMatchFilenameAndExtensionWithFilenameGlob()'><b>testNonMatchFilenameAndExtensionWithFilenameGlob</b><br>Test class: io.swagger.codegen.ignore.rules.RootedFileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.RootedFileRuleTest.testNonMatchFilenameAndExtensionWithMultiplePeriods()'><b>testNonMatchFilenameAndExtensionWithMultiplePeriods</b><br>Test class: io.swagger.codegen.ignore.rules.RootedFileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.RootedFileRuleTest.testNonMatchFilenameOnly()'><b>testNonMatchFilenameOnly</b><br>Test class: io.swagger.codegen.ignore.rules.RootedFileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304</td></tr>
+<tr>
+<td title='io.swagger.codegen.ignore.rules.RootedFileRuleTest.testNonMatchFilenameWithGlob()'><b>testNonMatchFilenameWithGlob</b><br>Test class: io.swagger.codegen.ignore.rules.RootedFileRuleTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304</td></tr>
+<tr>
+<td title='io.swagger.codegen.DefaultGeneratorTest.testOverloadingTemplateFiles()'><b>testOverloadingTemplateFiles</b><br>Test class: io.swagger.codegen.DefaultGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.DefaultGeneratorTest@57855c9a</td></tr>
+<tr>
+<td title='io.swagger.codegen.DefaultGeneratorTest.testResolveTagNotDefinedInSwaggerTagsDefinition()'><b>testResolveTagNotDefinedInSwaggerTagsDefinition</b><br>Test class: io.swagger.codegen.DefaultGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.DefaultGeneratorTest@57855c9a</td></tr>
+<tr>
+<td title='io.swagger.codegen.DefaultGeneratorTest.testResolveTagsAgainstSwaggerTagsDefinition()'><b>testResolveTagsAgainstSwaggerTagsDefinition</b><br>Test class: io.swagger.codegen.DefaultGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.DefaultGeneratorTest@57855c9a</td></tr>
+<tr>
+<td title='io.swagger.codegen.DefaultGeneratorTest.testResolveTagsNoSwaggerTagsDefinition()'><b>testResolveTagsNoSwaggerTagsDefinition</b><br>Test class: io.swagger.codegen.DefaultGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.DefaultGeneratorTest@57855c9a</td></tr>
+<tr>
+<td title='io.swagger.codegen.DefaultGeneratorTest.testResolveTagsNoTagsDefined()'><b>testResolveTagsNoTagsDefined</b><br>Test class: io.swagger.codegen.DefaultGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.DefaultGeneratorTest@57855c9a</td></tr>
+<tr>
+<td title='io.swagger.codegen.DefaultGeneratorTest.testSecurityWithGlobal()'><b>testSecurityWithGlobal</b><br>Test class: io.swagger.codegen.DefaultGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.DefaultGeneratorTest@57855c9a</td></tr>
+<tr>
+<td title='io.swagger.codegen.DefaultGeneratorTest.testSecurityWithoutGlobal()'><b>testSecurityWithoutGlobal</b><br>Test class: io.swagger.codegen.DefaultGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.DefaultGeneratorTest@57855c9a</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testSkipOverwrite()'><b>testSkipOverwrite</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.DefaultGeneratorTest.testSkipOverwrite()'><b>testSkipOverwrite</b><br>Test class: io.swagger.codegen.DefaultGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.DefaultGeneratorTest@57855c9a</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testSystemProperties()'><b>testSystemProperties</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testTemplateDir()'><b>testTemplateDir</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testTypeMappings()'><b>testTypeMappings</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.config.CodegenConfiguratorTest.testVerbose()'><b>testVerbose</b><br>Test class: io.swagger.codegen.config.CodegenConfiguratorTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.config.CodegenConfiguratorTest@6321e813</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.AbstractJavaCodegenTest.toEnumVarNameShouldNotShortenUnderScore()'><b>toEnumVarNameShouldNotShortenUnderScore</b><br>Test class: io.swagger.codegen.java.AbstractJavaCodegenTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.AbstractJavaCodegenTest@10bbd20a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.AbstractJavaCodegenTest.toModelNameShouldUseProvidedMapping()'><b>toModelNameShouldUseProvidedMapping</b><br>Test class: io.swagger.codegen.java.AbstractJavaCodegenTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.AbstractJavaCodegenTest@10bbd20a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.AbstractJavaCodegenTest.toModelNameUsesPascalCase()'><b>toModelNameUsesPascalCase</b><br>Test class: io.swagger.codegen.java.AbstractJavaCodegenTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.AbstractJavaCodegenTest@10bbd20a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.AbstractJavaCodegenTest.toVarNameShouldAvoidOverloadingGetClassMethod()'><b>toVarNameShouldAvoidOverloadingGetClassMethod</b><br>Test class: io.swagger.codegen.java.AbstractJavaCodegenTest</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.AbstractJavaCodegenTest@10bbd20a</td></tr>
+<tr>
+<td title='io.swagger.codegen.CodegenTest.underscoreNamesTest()'><b>underscoreNamesTest</b><br>Test class: io.swagger.codegen.CodegenTest<br>Test method: test underscore</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.CodegenTest@4973813a</td></tr>
+<tr>
+<td title='io.swagger.codegen.java.JavaModelTest.upperCaseNamesTest()'><b>upperCaseNamesTest</b><br>Test class: io.swagger.codegen.java.JavaModelTest<br>Test method: convert a model with upper-case property names</td>
+<td></td>
+<td>0</td>
+<td>io.swagger.codegen.java.JavaModelTest@56aac163</td></tr>
+</table><p>
+</body>
+</html>

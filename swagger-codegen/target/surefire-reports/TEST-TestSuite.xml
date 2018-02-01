@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.824" tests="194" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\swagger-codegen\modules\swagger-codegen"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\swagger-codegen\modules\swagger-codegen"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\TEJAS~1.NAN\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\tejas.nannajkar\Codegen_Swagger\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7882369429242713118.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Apache\maven\bin;C:\Users\tejas.nannajkar\AppData\Local\Programs\Git\cmd;C:\Program Files\Mozilla Firefox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\tejas.nannajkar\AppData\Local\Programs\Git\cmd;C:\Users\tejas.nannajkar\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Users\tejas.nannajkar\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\tejas.nannajkar"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Tejas.Nannajkar"/>
+    <property name="java.class.path" value="C:\Users\tejas.nannajkar\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\swagger-codegen\modules\swagger-codegen\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="clientAuthInputTest" classname="io.swagger.codegen.ClientAuthInputTest" time="0.021"/>
+  <testcase name="testLoadByFullQualifiedName" classname="io.swagger.codegen.CodegenConfigLoaderTest" time="0.002"/>
+  <testcase name="testLoadByFullQualifiedName" classname="io.swagger.codegen.CodegenConfigLoaderTest" time="0.001"/>
+  <testcase name="testLoadByName" classname="io.swagger.codegen.CodegenConfigLoaderTest" time="0.002"/>
+  <testcase name="testLoadByName" classname="io.swagger.codegen.CodegenConfigLoaderTest" time="0"/>
+  <testcase name="binaryDataTest" classname="io.swagger.codegen.CodegenTest" time="0.295"/>
+  <testcase name="camelizeNamesTest" classname="io.swagger.codegen.CodegenTest" time="0"/>
+  <testcase name="deprecatedParamTest" classname="io.swagger.codegen.CodegenTest" time="0.074"/>
+  <testcase name="discriminatorTest" classname="io.swagger.codegen.CodegenTest" time="0.005"/>
+  <testcase name="enumArrayQueryParameterTest" classname="io.swagger.codegen.CodegenTest" time="0.023"/>
+  <testcase name="enumQueryParameterTest" classname="io.swagger.codegen.CodegenTest" time="0.011"/>
+  <testcase name="fileResponeseTest" classname="io.swagger.codegen.CodegenTest" time="0.005"/>
+  <testcase name="fileUploadParamTest" classname="io.swagger.codegen.CodegenTest" time="0.015"/>
+  <testcase name="formParamTest" classname="io.swagger.codegen.CodegenTest" time="0.008"/>
+  <testcase name="globalConsumesAndProducesTest" classname="io.swagger.codegen.CodegenTest" time="0.002"/>
+  <testcase name="inheritanceOfComposedModelTest" classname="io.swagger.codegen.CodegenTest" time="0.061"/>
+  <testcase name="localConsumesAndProducesTest" classname="io.swagger.codegen.CodegenTest" time="0.004"/>
+  <testcase name="localResetConsumesAndProducesTest" classname="io.swagger.codegen.CodegenTest" time="0.005"/>
+  <testcase name="multiCompositionTest" classname="io.swagger.codegen.CodegenTest" time="0.012"/>
+  <testcase name="multiInheritanceOfComposedModelTest" classname="io.swagger.codegen.CodegenTest" time="0.011"/>
+  <testcase name="multiInheritanceTest" classname="io.swagger.codegen.CodegenTest" time="0.01"/>
+  <testcase name="noSupportsInheritanceTest" classname="io.swagger.codegen.CodegenTest" time="0.007"/>
+  <testcase name="requiredParametersTest" classname="io.swagger.codegen.CodegenTest" time="0.004"/>
+  <testcase name="responseSelectionTest1" classname="io.swagger.codegen.CodegenTest" time="0.007"/>
+  <testcase name="responseSelectionTest2" classname="io.swagger.codegen.CodegenTest" time="0.004"/>
+  <testcase name="sanitizeTagTest" classname="io.swagger.codegen.CodegenTest" time="0"/>
+  <testcase name="simpleCompositionTest" classname="io.swagger.codegen.CodegenTest" time="0.005"/>
+  <testcase name="simpleInheritanceTest" classname="io.swagger.codegen.CodegenTest" time="0.005"/>
+  <testcase name="supportsMixinsTest" classname="io.swagger.codegen.CodegenTest" time="0.004"/>
+  <testcase name="underscoreNamesTest" classname="io.swagger.codegen.CodegenTest" time="0.001"/>
+  <testcase name="testAdditionalProperties" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.24"/>
+  <testcase name="testApiPackage" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.002"/>
+  <testcase name="testArtifactId" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.002"/>
+  <testcase name="testArtifactVersion" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.001"/>
+  <testcase name="testCodegenConfiguratorIsSerializable" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.019"/>
+  <testcase name="testDynamicProperties" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0"/>
+  <testcase name="testFromFile" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.002"/>
+  <testcase name="testGroupId" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.001"/>
+  <testcase name="testImportMappings" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.001"/>
+  <testcase name="testInstantiationTypes" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.002"/>
+  <testcase name="testInvokerPackage" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.001"/>
+  <testcase name="testLanguageSpecificPrimitives" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.001"/>
+  <testcase name="testLibrary" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.001"/>
+  <testcase name="testModelPackage" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.001"/>
+  <testcase name="testSkipOverwrite" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.002"/>
+  <testcase name="testSystemProperties" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.04"/>
+  <testcase name="testTemplateDir" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.006"/>
+  <testcase name="testTypeMappings" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0"/>
+  <testcase name="testVerbose" classname="io.swagger.codegen.config.CodegenConfiguratorTest" time="0.024"/>
+  <testcase name="testGenerateUniqueOperationIds" classname="io.swagger.codegen.DefaultGeneratorTest" time="0.012"/>
+  <testcase name="testOverloadingTemplateFiles" classname="io.swagger.codegen.DefaultGeneratorTest" time="0.608"/>
+  <testcase name="testResolveTagNotDefinedInSwaggerTagsDefinition" classname="io.swagger.codegen.DefaultGeneratorTest" time="0.003"/>
+  <testcase name="testResolveTagsAgainstSwaggerTagsDefinition" classname="io.swagger.codegen.DefaultGeneratorTest" time="0.003"/>
+  <testcase name="testResolveTagsNoSwaggerTagsDefinition" classname="io.swagger.codegen.DefaultGeneratorTest" time="0.001"/>
+  <testcase name="testResolveTagsNoTagsDefined" classname="io.swagger.codegen.DefaultGeneratorTest" time="0.001"/>
+  <testcase name="testSecurityWithGlobal" classname="io.swagger.codegen.DefaultGeneratorTest" time="0.039"/>
+  <testcase name="testSecurityWithoutGlobal" classname="io.swagger.codegen.DefaultGeneratorTest" time="0.029"/>
+  <testcase name="testSkipOverwrite" classname="io.swagger.codegen.DefaultGeneratorTest" time="0.421"/>
+  <testcase name="recursiveModelsTest" classname="io.swagger.codegen.ExampleGeneratorTest" time="0.003"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.006"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.002"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.004"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.003"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.004"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.003"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.002"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.004"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.002"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.004"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.006"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.002"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.003"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.002"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.005"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.002"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.002"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.004"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.003"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.004"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.004"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.002"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.004"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.011"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.006"/>
+  <testcase name="evaluate" classname="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest" time="0.004"/>
+  <testcase name="testGlobbingNotRecursive" classname="io.swagger.codegen.ignore.rules.FileRuleTest" time="0"/>
+  <testcase name="testGlobbingRecursive" classname="io.swagger.codegen.ignore.rules.FileRuleTest" time="0"/>
+  <testcase name="testMatchComplex" classname="io.swagger.codegen.ignore.rules.FileRuleTest" time="0"/>
+  <testcase name="testNonMatchComplex" classname="io.swagger.codegen.ignore.rules.FileRuleTest" time="0"/>
+  <testcase name="parseComment" classname="io.swagger.codegen.ignore.rules.IgnoreLineParserTest" time="0.001"/>
+  <testcase name="parseComplex" classname="io.swagger.codegen.ignore.rules.IgnoreLineParserTest" time="0"/>
+  <testcase name="parseDirectoryMarker" classname="io.swagger.codegen.ignore.rules.IgnoreLineParserTest" time="0"/>
+  <testcase name="parseEscapedExclamation" classname="io.swagger.codegen.ignore.rules.IgnoreLineParserTest" time="0"/>
+  <testcase name="parseEscapedSpace" classname="io.swagger.codegen.ignore.rules.IgnoreLineParserTest" time="0"/>
+  <testcase name="parseMatchAll" classname="io.swagger.codegen.ignore.rules.IgnoreLineParserTest" time="0"/>
+  <testcase name="parseMatchAny" classname="io.swagger.codegen.ignore.rules.IgnoreLineParserTest" time="0"/>
+  <testcase name="parseNegate" classname="io.swagger.codegen.ignore.rules.IgnoreLineParserTest" time="0.001"/>
+  <testcase name="parseRooted" classname="io.swagger.codegen.ignore.rules.IgnoreLineParserTest" time="0"/>
+  <testcase name="parseTripleStarPattern" classname="io.swagger.codegen.ignore.rules.IgnoreLineParserTest" time="0"/>
+  <testcase name="testMatchFilenameAndExtension" classname="io.swagger.codegen.ignore.rules.RootedFileRuleTest" time="0.001"/>
+  <testcase name="testMatchFilenameAndExtensionWithExtensionGlob" classname="io.swagger.codegen.ignore.rules.RootedFileRuleTest" time="0"/>
+  <testcase name="testMatchFilenameAndExtensionWithFilenameGlob" classname="io.swagger.codegen.ignore.rules.RootedFileRuleTest" time="0"/>
+  <testcase name="testMatchFilenameAndExtensionWithMultiplePeriods" classname="io.swagger.codegen.ignore.rules.RootedFileRuleTest" time="0"/>
+  <testcase name="testMatchFilenameOnly" classname="io.swagger.codegen.ignore.rules.RootedFileRuleTest" time="0"/>
+  <testcase name="testMatchFilenameWithGlob" classname="io.swagger.codegen.ignore.rules.RootedFileRuleTest" time="0"/>
+  <testcase name="testMatchWithoutLeadingForwardSlash" classname="io.swagger.codegen.ignore.rules.RootedFileRuleTest" time="0"/>
+  <testcase name="testMatchesOnlyRooted" classname="io.swagger.codegen.ignore.rules.RootedFileRuleTest" time="0"/>
+  <testcase name="testNonMatchFilenameAndExtension" classname="io.swagger.codegen.ignore.rules.RootedFileRuleTest" time="0.001"/>
+  <testcase name="testNonMatchFilenameAndExtensionWithFilenameGlob" classname="io.swagger.codegen.ignore.rules.RootedFileRuleTest" time="0"/>
+  <testcase name="testNonMatchFilenameAndExtensionWithMultiplePeriods" classname="io.swagger.codegen.ignore.rules.RootedFileRuleTest" time="0"/>
+  <testcase name="testNonMatchFilenameOnly" classname="io.swagger.codegen.ignore.rules.RootedFileRuleTest" time="0"/>
+  <testcase name="testNonMatchFilenameWithGlob" classname="io.swagger.codegen.ignore.rules.RootedFileRuleTest" time="0"/>
+  <testcase name="notResolveNonModelBodyParameter" classname="io.swagger.codegen.InlineModelResolverTest" time="0.001"/>
+  <testcase name="resolveInlineArrayBodyParameter" classname="io.swagger.codegen.InlineModelResolverTest" time="0.001"/>
+  <testcase name="resolveInlineArrayModelWithTitle" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="resolveInlineArrayModelWithoutTitle" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="resolveInlineArrayResponse" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="resolveInlineArrayResponseWithTitle" classname="io.swagger.codegen.InlineModelResolverTest" time="0.001"/>
+  <testcase name="resolveInlineBodyParameter" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="resolveInlineBodyParameterWithRequired" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="resolveInlineBodyParameterWithTitle" classname="io.swagger.codegen.InlineModelResolverTest" time="0.001"/>
+  <testcase name="resolveInlineModel2DifferentInnerModelsWIthSameTitle" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="resolveInlineModel2EqualInnerModels" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="resolveInlineModelTestWithTitle" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="resolveInlineModelTestWithoutTitle" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="testArbitraryObjectBodyParam" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="testArbitraryObjectBodyParamArrayInline" classname="io.swagger.codegen.InlineModelResolverTest" time="0.003"/>
+  <testcase name="testArbitraryObjectBodyParamInline" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="testArbitraryObjectBodyParamWithArray" classname="io.swagger.codegen.InlineModelResolverTest" time="0.001"/>
+  <testcase name="testArbitraryObjectModelInline" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="testArbitraryObjectModelWithArrayInlineWithTitle" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="testArbitraryObjectModelWithArrayInlineWithoutTitle" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="testArbitraryObjectResponse" classname="io.swagger.codegen.InlineModelResolverTest" time="0.001"/>
+  <testcase name="testArbitraryObjectResponseArray" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="testArbitraryObjectResponseArrayInline" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="testArbitraryObjectResponseMapInline" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="testArrayResponse" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="testBasicInput" classname="io.swagger.codegen.InlineModelResolverTest" time="0.004"/>
+  <testcase name="testInlineMapResponse" classname="io.swagger.codegen.InlineModelResolverTest" time="0.001"/>
+  <testcase name="testInlineMapResponseWithObjectProperty" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="testInlineResponseModel" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="testInlineResponseModelWithTitle" classname="io.swagger.codegen.InlineModelResolverTest" time="0"/>
+  <testcase name="preprocessSwaggerWithBodyParamsSetsContentType" classname="io.swagger.codegen.java.AbstractJavaCodegenTest" time="0"/>
+  <testcase name="preprocessSwaggerWithFormParamsSetsContentType" classname="io.swagger.codegen.java.AbstractJavaCodegenTest" time="0"/>
+  <testcase name="preprocessSwaggerWithNoFormOrBodyParamsDoesNotSetContentType" classname="io.swagger.codegen.java.AbstractJavaCodegenTest" time="0"/>
+  <testcase name="toEnumVarNameShouldNotShortenUnderScore" classname="io.swagger.codegen.java.AbstractJavaCodegenTest" time="0"/>
+  <testcase name="toModelNameShouldUseProvidedMapping" classname="io.swagger.codegen.java.AbstractJavaCodegenTest" time="0"/>
+  <testcase name="toModelNameUsesPascalCase" classname="io.swagger.codegen.java.AbstractJavaCodegenTest" time="0"/>
+  <testcase name="toVarNameShouldAvoidOverloadingGetClassMethod" classname="io.swagger.codegen.java.AbstractJavaCodegenTest" time="0"/>
+  <testcase name="checkOptionsHelp" classname="io.swagger.codegen.java.JavaClientOptionsTest" time="0.007"/>
+  <testcase name="checkOptionsProcessing" classname="io.swagger.codegen.java.JavaClientOptionsTest" time="0.275"/>
+  <testcase name="javaInheritanceTest" classname="io.swagger.codegen.java.JavaInheritanceTest" time="0.004"/>
+  <testcase name="javaInheritanceWithDiscriminatorTest" classname="io.swagger.codegen.java.JavaInheritanceTest" time="0"/>
+  <testcase name="converterTest" classname="io.swagger.codegen.java.JavaModelEnumTest" time="0"/>
+  <testcase name="overrideEnumTest" classname="io.swagger.codegen.java.JavaModelEnumTest" time="0.004"/>
+  <testcase name="arrayModelTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="arrayModelWithItemNameTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.001"/>
+  <testcase name="binaryDataTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.003"/>
+  <testcase name="booleanParameterTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="classPropertyTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="classPropertyTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.001"/>
+  <testcase name="classPropertyTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="complexListPropertyTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.001"/>
+  <testcase name="complexMapPropertyTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.001"/>
+  <testcase name="complexPropertiesTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="convertParameterTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.001"/>
+  <testcase name="escapeNamesTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="firstTwoUpperCaseLetterNamesTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.001"/>
+  <testcase name="hyphensTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="invalidParamNameTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.001"/>
+  <testcase name="list2DPropertyTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="listPropertyTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.002"/>
+  <testcase name="mapModelTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="mapPropertyTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="mapWithAnListOfBigDecimalTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.004"/>
+  <testcase name="mapWithListPropertyTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="modelNameTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="modelNameTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="modelNameTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.001"/>
+  <testcase name="modelNameTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="modelNameTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.001"/>
+  <testcase name="modelNameTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="modelNameTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="modelNameTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.001"/>
+  <testcase name="modelWithWrappedXmlTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.001"/>
+  <testcase name="modelWithXmlTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.001"/>
+  <testcase name="secondCharUpperCaseNamesTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="simpleModelTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.001"/>
+  <testcase name="squareBracketsTest" classname="io.swagger.codegen.java.JavaModelTest" time="0.001"/>
+  <testcase name="upperCaseNamesTest" classname="io.swagger.codegen.java.JavaModelTest" time="0"/>
+  <testcase name="swaggerMigratorTest" classname="io.swagger.codegen.SwaggerMigratorTest" time="0.141"/>
+  <testcase name="atLeast" classname="io.swagger.codegen.utils.SemVerTest" time="0.001"/>
+  <testcase name="parsingAndPrinting" classname="io.swagger.codegen.utils.SemVerTest" time="0"/>
+</testsuite>

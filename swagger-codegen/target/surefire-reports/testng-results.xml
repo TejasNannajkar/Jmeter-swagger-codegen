@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="194" passed="194">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="3037" started-at="2018-01-31T13:50:13Z" finished-at="2018-01-31T13:50:16Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="3037" started-at="2018-01-31T13:50:13Z" finished-at="2018-01-31T13:50:16Z">
+      <class name="io.swagger.codegen.InlineModelResolverTest">
+        <test-method status="PASS" signature="notResolveNonModelBodyParameter()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="notResolveNonModelBodyParameter" duration-ms="1" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notResolveNonModelBodyParameter -->
+        <test-method status="PASS" signature="resolveInlineArrayBodyParameter()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="resolveInlineArrayBodyParameter" duration-ms="1" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolveInlineArrayBodyParameter -->
+        <test-method status="PASS" signature="resolveInlineArrayModelWithTitle()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="resolveInlineArrayModelWithTitle" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolveInlineArrayModelWithTitle -->
+        <test-method status="PASS" signature="resolveInlineArrayModelWithoutTitle()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="resolveInlineArrayModelWithoutTitle" duration-ms="1" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolveInlineArrayModelWithoutTitle -->
+        <test-method status="PASS" signature="resolveInlineArrayResponse()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="resolveInlineArrayResponse" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolveInlineArrayResponse -->
+        <test-method status="PASS" signature="resolveInlineArrayResponseWithTitle()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="resolveInlineArrayResponseWithTitle" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolveInlineArrayResponseWithTitle -->
+        <test-method status="PASS" signature="resolveInlineBodyParameter()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="resolveInlineBodyParameter" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolveInlineBodyParameter -->
+        <test-method status="PASS" signature="resolveInlineBodyParameterWithTitle()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="resolveInlineBodyParameterWithTitle" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolveInlineBodyParameterWithTitle -->
+        <test-method status="PASS" signature="resolveInlineBodyParameterWithRequired()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="resolveInlineBodyParameterWithRequired" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolveInlineBodyParameterWithRequired -->
+        <test-method status="PASS" signature="resolveInlineModelTestWithTitle()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="resolveInlineModelTestWithTitle" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolveInlineModelTestWithTitle -->
+        <test-method status="PASS" signature="resolveInlineModel2DifferentInnerModelsWIthSameTitle()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="resolveInlineModel2DifferentInnerModelsWIthSameTitle" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolveInlineModel2DifferentInnerModelsWIthSameTitle -->
+        <test-method status="PASS" signature="resolveInlineModel2EqualInnerModels()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="resolveInlineModel2EqualInnerModels" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolveInlineModel2EqualInnerModels -->
+        <test-method status="PASS" signature="resolveInlineModelTestWithoutTitle()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="resolveInlineModelTestWithoutTitle" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolveInlineModelTestWithoutTitle -->
+        <test-method status="PASS" signature="testArbitraryObjectBodyParam()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testArbitraryObjectBodyParam" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArbitraryObjectBodyParam -->
+        <test-method status="PASS" signature="testArbitraryObjectBodyParamArrayInline()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testArbitraryObjectBodyParamArrayInline" duration-ms="3" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArbitraryObjectBodyParamArrayInline -->
+        <test-method status="PASS" signature="testArbitraryObjectBodyParamInline()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testArbitraryObjectBodyParamInline" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArbitraryObjectBodyParamInline -->
+        <test-method status="PASS" signature="testArbitraryObjectBodyParamWithArray()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testArbitraryObjectBodyParamWithArray" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArbitraryObjectBodyParamWithArray -->
+        <test-method status="PASS" signature="testArbitraryObjectModelInline()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testArbitraryObjectModelInline" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArbitraryObjectModelInline -->
+        <test-method status="PASS" signature="testArbitraryObjectModelWithArrayInlineWithoutTitle()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testArbitraryObjectModelWithArrayInlineWithoutTitle" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArbitraryObjectModelWithArrayInlineWithoutTitle -->
+        <test-method status="PASS" signature="testArbitraryObjectModelWithArrayInlineWithTitle()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testArbitraryObjectModelWithArrayInlineWithTitle" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArbitraryObjectModelWithArrayInlineWithTitle -->
+        <test-method status="PASS" signature="testArbitraryObjectResponse()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testArbitraryObjectResponse" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArbitraryObjectResponse -->
+        <test-method status="PASS" signature="testArbitraryObjectResponseArrayInline()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testArbitraryObjectResponseArrayInline" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArbitraryObjectResponseArrayInline -->
+        <test-method status="PASS" signature="testBasicInput()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testBasicInput" duration-ms="5" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasicInput -->
+        <test-method status="PASS" signature="testArbitraryObjectResponseArray()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testArbitraryObjectResponseArray" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArbitraryObjectResponseArray -->
+        <test-method status="PASS" signature="testArrayResponse()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testArrayResponse" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrayResponse -->
+        <test-method status="PASS" signature="testArbitraryObjectResponseMapInline()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testArbitraryObjectResponseMapInline" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArbitraryObjectResponseMapInline -->
+        <test-method status="PASS" signature="testInlineMapResponse()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testInlineMapResponse" duration-ms="1" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInlineMapResponse -->
+        <test-method status="PASS" signature="testInlineMapResponseWithObjectProperty()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testInlineMapResponseWithObjectProperty" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInlineMapResponseWithObjectProperty -->
+        <test-method status="PASS" signature="testInlineResponseModel()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testInlineResponseModel" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInlineResponseModel -->
+        <test-method status="PASS" signature="testInlineResponseModelWithTitle()[pri:0, instance:io.swagger.codegen.InlineModelResolverTest@64729b1e]" name="testInlineResponseModelWithTitle" duration-ms="1" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInlineResponseModelWithTitle -->
+      </class> <!-- io.swagger.codegen.InlineModelResolverTest -->
+      <class name="io.swagger.codegen.DefaultGeneratorTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="setUp" is-config="true" duration-ms="64" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGenerateUniqueOperationIds()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="testGenerateUniqueOperationIds" duration-ms="12" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateUniqueOperationIds -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOverloadingTemplateFiles()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="testOverloadingTemplateFiles" duration-ms="609" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOverloadingTemplateFiles -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="tearDown" is-config="true" duration-ms="35" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testResolveTagNotDefinedInSwaggerTagsDefinition()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="testResolveTagNotDefinedInSwaggerTagsDefinition" duration-ms="3" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResolveTagNotDefinedInSwaggerTagsDefinition -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testResolveTagsAgainstSwaggerTagsDefinition()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="testResolveTagsAgainstSwaggerTagsDefinition" duration-ms="3" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResolveTagsAgainstSwaggerTagsDefinition -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testResolveTagsNoSwaggerTagsDefinition()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="testResolveTagsNoSwaggerTagsDefinition" duration-ms="2" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResolveTagsNoSwaggerTagsDefinition -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="setUp" is-config="true" duration-ms="2" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testResolveTagsNoTagsDefined()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="testResolveTagsNoTagsDefined" duration-ms="1" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResolveTagsNoTagsDefined -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testSecurityWithGlobal()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="testSecurityWithGlobal" duration-ms="39" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSecurityWithGlobal -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="setUp" is-config="true" duration-ms="2" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSecurityWithoutGlobal()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="testSecurityWithoutGlobal" duration-ms="29" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSecurityWithoutGlobal -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSkipOverwrite()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="testSkipOverwrite" duration-ms="420" started-at="2018-01-31T19:20:15Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkipOverwrite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:io.swagger.codegen.DefaultGeneratorTest@57855c9a]" name="tearDown" is-config="true" duration-ms="36" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- io.swagger.codegen.DefaultGeneratorTest -->
+      <class name="io.swagger.codegen.java.JavaModelEnumTest">
+        <test-method status="PASS" signature="converterTest()[pri:0, instance:io.swagger.codegen.java.JavaModelEnumTest@184f6be2]" name="converterTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="convert a java model with an enum" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- converterTest -->
+        <test-method status="PASS" signature="overrideEnumTest()[pri:0, instance:io.swagger.codegen.java.JavaModelEnumTest@184f6be2]" name="overrideEnumTest" duration-ms="2" started-at="2018-01-31T19:20:16Z" description="not override identical parent enums" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overrideEnumTest -->
+      </class> <!-- io.swagger.codegen.java.JavaModelEnumTest -->
+      <class name="io.swagger.codegen.ignore.CodegenIgnoreProcessorTest">
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@131276c2]" name="evaluate" duration-ms="5" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@1c3a4799]" name="evaluate" duration-ms="2" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@1e6d1014]" name="evaluate" duration-ms="4" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@1f554b06]" name="evaluate" duration-ms="3" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@26aa12dd]" name="evaluate" duration-ms="4" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@2a17b7b6]" name="evaluate" duration-ms="4" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@30b8a058]" name="evaluate" duration-ms="1" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@3fd7a715]" name="evaluate" duration-ms="4" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@4bbfb90a]" name="evaluate" duration-ms="2" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@4f063c0a]" name="evaluate" duration-ms="4" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@51cdd8a]" name="evaluate" duration-ms="5" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@5a8806ef]" name="evaluate" duration-ms="2" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@5d76b067]" name="evaluate" duration-ms="2" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@5e853265]" name="evaluate" duration-ms="2" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@614ddd49]" name="evaluate" duration-ms="5" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@67205a84]" name="evaluate" duration-ms="2" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@68bbe345]" name="evaluate" duration-ms="2" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@694e1548]" name="evaluate" duration-ms="3" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@6c49835d]" name="evaluate" duration-ms="3" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@711f39f9]" name="evaluate" duration-ms="4" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@71bbf57e]" name="evaluate" duration-ms="3" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@7494e528]" name="evaluate" duration-ms="1" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@76707e36]" name="evaluate" duration-ms="4" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@7d0587f1]" name="evaluate" duration-ms="11" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@7c29daf3]" name="evaluate" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@7f13d6e]" name="evaluate" duration-ms="6" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="evaluate()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@9660f4e]" name="evaluate" duration-ms="4" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluate -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:io.swagger.codegen.ignore.CodegenIgnoreProcessorTest@51cdd8a]" name="afterTest" is-config="true" duration-ms="5" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- io.swagger.codegen.ignore.CodegenIgnoreProcessorTest -->
+      <class name="io.swagger.codegen.java.JavaInheritanceTest">
+        <test-method status="PASS" signature="javaInheritanceTest()[pri:0, instance:io.swagger.codegen.java.JavaInheritanceTest@6895a785]" name="javaInheritanceTest" duration-ms="2" started-at="2018-01-31T19:20:16Z" description="convert a composed model with parent" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaInheritanceTest -->
+        <test-method status="PASS" signature="javaInheritanceWithDiscriminatorTest()[pri:0, instance:io.swagger.codegen.java.JavaInheritanceTest@6895a785]" name="javaInheritanceWithDiscriminatorTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="convert a composed model with discriminator" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaInheritanceWithDiscriminatorTest -->
+      </class> <!-- io.swagger.codegen.java.JavaInheritanceTest -->
+      <class name="io.swagger.codegen.SwaggerMigratorTest">
+        <test-method status="PASS" signature="swaggerMigratorTest()[pri:0, instance:io.swagger.codegen.SwaggerMigratorTest@1f7030a6]" name="swaggerMigratorTest" duration-ms="141" started-at="2018-01-31T19:20:16Z" description="read a 1.2 spec" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swaggerMigratorTest -->
+      </class> <!-- io.swagger.codegen.SwaggerMigratorTest -->
+      <class name="io.swagger.codegen.ignore.rules.IgnoreLineParserTest">
+        <test-method status="PASS" signature="parseComment()[pri:0, instance:io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae]" name="parseComment" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parseComment -->
+        <test-method status="PASS" signature="parseDirectoryMarker()[pri:0, instance:io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae]" name="parseDirectoryMarker" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parseDirectoryMarker -->
+        <test-method status="PASS" signature="parseMatchAll()[pri:0, instance:io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae]" name="parseMatchAll" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parseMatchAll -->
+        <test-method status="PASS" signature="parseComplex()[pri:0, instance:io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae]" name="parseComplex" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parseComplex -->
+        <test-method status="PASS" signature="parseEscapedSpace()[pri:0, instance:io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae]" name="parseEscapedSpace" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parseEscapedSpace -->
+        <test-method status="PASS" signature="parseEscapedExclamation()[pri:0, instance:io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae]" name="parseEscapedExclamation" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parseEscapedExclamation -->
+        <test-method status="PASS" signature="parseMatchAny()[pri:0, instance:io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae]" name="parseMatchAny" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parseMatchAny -->
+        <test-method status="PASS" signature="parseNegate()[pri:0, instance:io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae]" name="parseNegate" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <exception class="io.swagger.codegen.ignore.rules.ParserException">
+            <message>
+              <![CDATA[Negation with no negated pattern.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.swagger.codegen.ignore.rules.ParserException: Negation with no negated pattern.
+	at io.swagger.codegen.ignore.rules.IgnoreLineParser.parse(IgnoreLineParser.java:52)
+	at io.swagger.codegen.ignore.rules.IgnoreLineParserTest.verifyInputToSingleToken(IgnoreLineParserTest.java:14)
+	at io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseNegate(IgnoreLineParserTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.swagger.codegen.ignore.rules.ParserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parseNegate -->
+        <test-method status="PASS" signature="parseRooted()[pri:0, instance:io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae]" name="parseRooted" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parseRooted -->
+        <test-method status="PASS" signature="parseTripleStarPattern()[pri:0, instance:io.swagger.codegen.ignore.rules.IgnoreLineParserTest@2d6eabae]" name="parseTripleStarPattern" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <exception class="io.swagger.codegen.ignore.rules.ParserException">
+            <message>
+              <![CDATA[The pattern *** is invalid.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.swagger.codegen.ignore.rules.ParserException: The pattern *** is invalid.
+	at io.swagger.codegen.ignore.rules.IgnoreLineParser.parse(IgnoreLineParser.java:74)
+	at io.swagger.codegen.ignore.rules.IgnoreLineParserTest.parseTripleStarPattern(IgnoreLineParserTest.java:153)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.swagger.codegen.ignore.rules.ParserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parseTripleStarPattern -->
+      </class> <!-- io.swagger.codegen.ignore.rules.IgnoreLineParserTest -->
+      <class name="io.swagger.codegen.CodegenTest">
+        <test-method status="PASS" signature="binaryDataTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="binaryDataTest" duration-ms="295" started-at="2018-01-31T19:20:13Z" description="return byte array when response format is byte" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- binaryDataTest -->
+        <test-method status="PASS" signature="camelizeNamesTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="camelizeNamesTest" duration-ms="2" started-at="2018-01-31T19:20:14Z" description="test camelize" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- camelizeNamesTest -->
+        <test-method status="PASS" signature="deprecatedParamTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="deprecatedParamTest" duration-ms="79" started-at="2018-01-31T19:20:14Z" description="isDeprecated is present" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deprecatedParamTest -->
+        <test-method status="PASS" signature="discriminatorTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="discriminatorTest" duration-ms="5" started-at="2018-01-31T19:20:14Z" description="discriminator is present" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- discriminatorTest -->
+        <test-method status="PASS" signature="enumArrayQueryParameterTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="enumArrayQueryParameterTest" duration-ms="23" started-at="2018-01-31T19:20:14Z" description="handle enum array in query parameter test" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enumArrayQueryParameterTest -->
+        <test-method status="PASS" signature="enumQueryParameterTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="enumQueryParameterTest" duration-ms="11" started-at="2018-01-31T19:20:14Z" description="handle enum in query parameter test" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enumQueryParameterTest -->
+        <test-method status="PASS" signature="fileResponeseTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="fileResponeseTest" duration-ms="5" started-at="2018-01-31T19:20:14Z" description="return file when response format is file" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileResponeseTest -->
+        <test-method status="PASS" signature="fileUploadParamTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="fileUploadParamTest" duration-ms="15" started-at="2018-01-31T19:20:14Z" description="read a file upload param from a 2.0 spec" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadParamTest -->
+        <test-method status="PASS" signature="formParamTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="formParamTest" duration-ms="8" started-at="2018-01-31T19:20:14Z" description="read formParam values from a 2.0 spec" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formParamTest -->
+        <test-method status="PASS" signature="globalConsumesAndProducesTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="globalConsumesAndProducesTest" duration-ms="3" started-at="2018-01-31T19:20:14Z" description="use spec consumes and produces" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalConsumesAndProducesTest -->
+        <test-method status="PASS" signature="inheritanceOfComposedModelTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="inheritanceOfComposedModelTest" duration-ms="62" started-at="2018-01-31T19:20:14Z" description="handle inheritance from composed model" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inheritanceOfComposedModelTest -->
+        <test-method status="PASS" signature="localConsumesAndProducesTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="localConsumesAndProducesTest" duration-ms="3" started-at="2018-01-31T19:20:14Z" description="use operation consumes and produces" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- localConsumesAndProducesTest -->
+        <test-method status="PASS" signature="localResetConsumesAndProducesTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="localResetConsumesAndProducesTest" duration-ms="5" started-at="2018-01-31T19:20:14Z" description="use operation consumes and produces (reset in operation with empty array)" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- localResetConsumesAndProducesTest -->
+        <test-method status="PASS" signature="multiCompositionTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="multiCompositionTest" duration-ms="12" started-at="2018-01-31T19:20:14Z" description="handle multi level composition" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiCompositionTest -->
+        <test-method status="PASS" signature="multiInheritanceOfComposedModelTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="multiInheritanceOfComposedModelTest" duration-ms="11" started-at="2018-01-31T19:20:14Z" description="handle multi level inheritance from composed model" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiInheritanceOfComposedModelTest -->
+        <test-method status="PASS" signature="multiInheritanceTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="multiInheritanceTest" duration-ms="10" started-at="2018-01-31T19:20:14Z" description="handle multi level inheritance" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiInheritanceTest -->
+        <test-method status="PASS" signature="noSupportsInheritanceTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="noSupportsInheritanceTest" duration-ms="6" started-at="2018-01-31T19:20:14Z" description="copy properties in multi level inheritance if supportsInheritance is false" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noSupportsInheritanceTest -->
+        <test-method status="PASS" signature="requiredParametersTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="requiredParametersTest" duration-ms="3" started-at="2018-01-31T19:20:14Z" description="handle required parameters from a 2.0 spec as required when figuring out Swagger types" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requiredParametersTest -->
+        <test-method status="PASS" signature="responseSelectionTest1()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="responseSelectionTest1" duration-ms="6" started-at="2018-01-31T19:20:14Z" description="select main response from a 2.0 spec using the lowest 2XX code" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseSelectionTest1 -->
+        <test-method status="PASS" signature="responseSelectionTest2()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="responseSelectionTest2" duration-ms="3" started-at="2018-01-31T19:20:14Z" description="select main response from a 2.0 spec using the default keyword when no 2XX code" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseSelectionTest2 -->
+        <test-method status="PASS" signature="simpleCompositionTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="simpleCompositionTest" duration-ms="6" started-at="2018-01-31T19:20:14Z" description="handle simple composition" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleCompositionTest -->
+        <test-method status="PASS" signature="sanitizeTagTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="sanitizeTagTest" duration-ms="0" started-at="2018-01-31T19:20:14Z" description="test sanitizeTag" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanitizeTagTest -->
+        <test-method status="PASS" signature="simpleInheritanceTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="simpleInheritanceTest" duration-ms="5" started-at="2018-01-31T19:20:14Z" description="handle simple inheritance" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleInheritanceTest -->
+        <test-method status="PASS" signature="supportsMixinsTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="supportsMixinsTest" duration-ms="4" started-at="2018-01-31T19:20:14Z" description="don&#039;t copy interfaces properties if supportsMixins is true" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- supportsMixinsTest -->
+        <test-method status="PASS" signature="underscoreNamesTest()[pri:0, instance:io.swagger.codegen.CodegenTest@4973813a]" name="underscoreNamesTest" duration-ms="1" started-at="2018-01-31T19:20:14Z" description="test underscore" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- underscoreNamesTest -->
+      </class> <!-- io.swagger.codegen.CodegenTest -->
+      <class name="io.swagger.codegen.CodegenConfigLoaderTest">
+        <test-method status="PASS" signature="testLoadByFullQualifiedName(io.swagger.codegen.CodegenConfig)[pri:0, instance:io.swagger.codegen.CodegenConfigLoaderTest@49fc609f]" name="testLoadByFullQualifiedName" duration-ms="2" started-at="2018-01-31T19:20:13Z" data-provider="codegenConfig" finished-at="2018-01-31T19:20:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[io.swagger.codegen.languages.JMeterCodegen@46044faa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadByFullQualifiedName -->
+        <test-method status="PASS" signature="testLoadByFullQualifiedName(io.swagger.codegen.CodegenConfig)[pri:0, instance:io.swagger.codegen.CodegenConfigLoaderTest@49fc609f]" name="testLoadByFullQualifiedName" duration-ms="1" started-at="2018-01-31T19:20:13Z" data-provider="codegenConfig" finished-at="2018-01-31T19:20:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[io.swagger.codegen.languages.JavaClientCodegen@1358b28e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadByFullQualifiedName -->
+        <test-method status="PASS" signature="testLoadByName(io.swagger.codegen.CodegenConfig)[pri:0, instance:io.swagger.codegen.CodegenConfigLoaderTest@49fc609f]" name="testLoadByName" duration-ms="0" started-at="2018-01-31T19:20:13Z" data-provider="codegenConfig" finished-at="2018-01-31T19:20:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[io.swagger.codegen.languages.JMeterCodegen@1a78dacd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadByName -->
+        <test-method status="PASS" signature="testLoadByName(io.swagger.codegen.CodegenConfig)[pri:0, instance:io.swagger.codegen.CodegenConfigLoaderTest@49fc609f]" name="testLoadByName" duration-ms="0" started-at="2018-01-31T19:20:13Z" data-provider="codegenConfig" finished-at="2018-01-31T19:20:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[io.swagger.codegen.languages.JavaClientCodegen@19f9d595]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadByName -->
+      </class> <!-- io.swagger.codegen.CodegenConfigLoaderTest -->
+      <class name="io.swagger.codegen.config.CodegenConfiguratorTest">
+        <test-method status="PASS" signature="testAdditionalProperties()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testAdditionalProperties" duration-ms="239" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionalProperties -->
+        <test-method status="PASS" signature="testApiPackage()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testApiPackage" duration-ms="2" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApiPackage -->
+        <test-method status="PASS" signature="testArtifactId()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testArtifactId" duration-ms="1" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArtifactId -->
+        <test-method status="PASS" signature="testArtifactVersion()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testArtifactVersion" duration-ms="1" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArtifactVersion -->
+        <test-method status="PASS" signature="testCodegenConfiguratorIsSerializable()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testCodegenConfiguratorIsSerializable" duration-ms="18" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCodegenConfiguratorIsSerializable -->
+        <test-method status="PASS" signature="testDynamicProperties()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testDynamicProperties" duration-ms="1" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDynamicProperties -->
+        <test-method status="PASS" signature="testFromFile()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testFromFile" duration-ms="2" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFromFile -->
+        <test-method status="PASS" signature="testGroupId()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testGroupId" duration-ms="1" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupId -->
+        <test-method status="PASS" signature="testImportMappings()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testImportMappings" duration-ms="1" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImportMappings -->
+        <test-method status="PASS" signature="testInstantiationTypes()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testInstantiationTypes" duration-ms="1" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInstantiationTypes -->
+        <test-method status="PASS" signature="testInvokerPackage()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testInvokerPackage" duration-ms="1" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvokerPackage -->
+        <test-method status="PASS" signature="testLanguageSpecificPrimitives()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testLanguageSpecificPrimitives" duration-ms="1" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLanguageSpecificPrimitives -->
+        <test-method status="PASS" signature="testLibrary()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testLibrary" duration-ms="1" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLibrary -->
+        <test-method status="PASS" signature="testModelPackage()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testModelPackage" duration-ms="1" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModelPackage -->
+        <test-method status="PASS" signature="testSkipOverwrite()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testSkipOverwrite" duration-ms="2" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkipOverwrite -->
+        <test-method status="PASS" signature="testSystemProperties()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testSystemProperties" duration-ms="29" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSystemProperties -->
+        <test-method status="PASS" signature="testTemplateDir()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testTemplateDir" duration-ms="4" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTemplateDir -->
+        <test-method status="PASS" signature="testTypeMappings()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testTypeMappings" duration-ms="2" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTypeMappings -->
+        <test-method status="PASS" signature="testVerbose()[pri:0, instance:io.swagger.codegen.config.CodegenConfiguratorTest@6321e813]" name="testVerbose" duration-ms="16" started-at="2018-01-31T19:20:14Z" finished-at="2018-01-31T19:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerbose -->
+      </class> <!-- io.swagger.codegen.config.CodegenConfiguratorTest -->
+      <class name="io.swagger.codegen.java.JavaClientOptionsTest">
+        <test-method status="PASS" signature="checkOptionsHelp()[pri:0, instance:io.swagger.codegen.java.JavaClientOptionsTest@48503868]" name="checkOptionsHelp" duration-ms="7" started-at="2018-01-31T19:20:16Z" description="check if all options described in documentation are presented in test case" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOptionsHelp -->
+        <test-method status="PASS" signature="checkOptionsProcessing()[pri:0, instance:io.swagger.codegen.java.JavaClientOptionsTest@48503868]" name="checkOptionsProcessing" duration-ms="218" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOptionsProcessing -->
+      </class> <!-- io.swagger.codegen.java.JavaClientOptionsTest -->
+      <class name="io.swagger.codegen.java.JavaModelTest">
+        <test-method status="PASS" signature="arrayModelTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="arrayModelTest" duration-ms="3" started-at="2018-01-31T19:20:16Z" description="convert an array model" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrayModelTest -->
+        <test-method status="PASS" signature="arrayModelWithItemNameTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="arrayModelWithItemNameTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="convert a model with an array property with item name" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrayModelWithItemNameTest -->
+        <test-method status="PASS" signature="binaryDataTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="binaryDataTest" duration-ms="3" started-at="2018-01-31T19:20:16Z" description="convert a model with binary data" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- binaryDataTest -->
+        <test-method status="PASS" signature="booleanParameterTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="booleanParameterTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="convert a boolean parameter" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booleanParameterTest -->
+        <test-method status="PASS" signature="classPropertyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="classPropertyTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="handle &#039;class&#039; properties" data-provider="classProperties" finished-at="2018-01-31T19:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[_class]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[getPropertyClass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[setPropertyClass]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[propertyClass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classPropertyTest -->
+        <test-method status="PASS" signature="classPropertyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="classPropertyTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="handle &#039;class&#039; properties" data-provider="classProperties" finished-at="2018-01-31T19:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[class]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[getPropertyClass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[setPropertyClass]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[propertyClass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classPropertyTest -->
+        <test-method status="PASS" signature="complexListPropertyTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="complexListPropertyTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="convert a model with complex list property" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- complexListPropertyTest -->
+        <test-method status="PASS" signature="classPropertyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="classPropertyTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="handle &#039;class&#039; properties" data-provider="classProperties" finished-at="2018-01-31T19:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[__class]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[getPropertyClass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[setPropertyClass]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[propertyClass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classPropertyTest -->
+        <test-method status="PASS" signature="complexMapPropertyTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="complexMapPropertyTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="convert a model with complex map property" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- complexMapPropertyTest -->
+        <test-method status="PASS" signature="complexPropertiesTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="complexPropertiesTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="convert a model with complex properties" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- complexPropertiesTest -->
+        <test-method status="PASS" signature="convertParameterTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="convertParameterTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="convert a parameter" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertParameterTest -->
+        <test-method status="PASS" signature="firstTwoUpperCaseLetterNamesTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="firstTwoUpperCaseLetterNamesTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="convert a model starting with two upper-case letter property names" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTwoUpperCaseLetterNamesTest -->
+        <test-method status="PASS" signature="escapeNamesTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="escapeNamesTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="properly escape names per 567" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- escapeNamesTest -->
+        <test-method status="PASS" signature="hyphensTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="hyphensTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="convert hyphens per issue 503" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hyphensTest -->
+        <test-method status="PASS" signature="invalidParamNameTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="invalidParamNameTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="translate an invalid param name" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidParamNameTest -->
+        <test-method status="PASS" signature="list2DPropertyTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="list2DPropertyTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="convert a model with a 2D list property" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- list2DPropertyTest -->
+        <test-method status="PASS" signature="listPropertyTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="listPropertyTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="convert a model with list property" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listPropertyTest -->
+        <test-method status="PASS" signature="mapModelTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="mapModelTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="convert an map model" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mapModelTest -->
+        <test-method status="PASS" signature="mapPropertyTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="mapPropertyTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="convert a model with a map property" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mapPropertyTest -->
+        <test-method status="PASS" signature="mapWithAnListOfBigDecimalTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="mapWithAnListOfBigDecimalTest" duration-ms="3" started-at="2018-01-31T19:20:16Z" description="types used by inner properties should be imported" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mapWithAnListOfBigDecimalTest -->
+        <test-method status="PASS" signature="mapWithListPropertyTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="mapWithListPropertyTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="convert a model with a map with complex list property" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mapWithListPropertyTest -->
+        <test-method status="PASS" signature="modelNameTest(java.lang.String, java.lang.String)[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="modelNameTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="avoid inner class" data-provider="modelNames" finished-at="2018-01-31T19:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modelNameTest -->
+        <test-method status="PASS" signature="modelNameTest(java.lang.String, java.lang.String)[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="modelNameTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="avoid inner class" data-provider="modelNames" finished-at="2018-01-31T19:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sample_name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SampleName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modelNameTest -->
+        <test-method status="PASS" signature="modelNameTest(java.lang.String, java.lang.String)[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="modelNameTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="avoid inner class" data-provider="modelNames" finished-at="2018-01-31T19:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sample__name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SampleName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modelNameTest -->
+        <test-method status="PASS" signature="modelNameTest(java.lang.String, java.lang.String)[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="modelNameTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="avoid inner class" data-provider="modelNames" finished-at="2018-01-31T19:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/sample]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modelNameTest -->
+        <test-method status="PASS" signature="modelNameTest(java.lang.String, java.lang.String)[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="modelNameTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="avoid inner class" data-provider="modelNames" finished-at="2018-01-31T19:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\sample]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modelNameTest -->
+        <test-method status="PASS" signature="modelNameTest(java.lang.String, java.lang.String)[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="modelNameTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="avoid inner class" data-provider="modelNames" finished-at="2018-01-31T19:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sample.name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SampleName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modelNameTest -->
+        <test-method status="PASS" signature="modelNameTest(java.lang.String, java.lang.String)[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="modelNameTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="avoid inner class" data-provider="modelNames" finished-at="2018-01-31T19:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sample]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modelNameTest -->
+        <test-method status="PASS" signature="modelNameTest(java.lang.String, java.lang.String)[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="modelNameTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="avoid inner class" data-provider="modelNames" finished-at="2018-01-31T19:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[_sample]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modelNameTest -->
+        <test-method status="PASS" signature="modelWithWrappedXmlTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="modelWithWrappedXmlTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="test models with wrapped xml" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modelWithWrappedXmlTest -->
+        <test-method status="PASS" signature="modelWithXmlTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="modelWithXmlTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="test models with xml" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modelWithXmlTest -->
+        <test-method status="PASS" signature="simpleModelTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="simpleModelTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="convert a simple java model" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleModelTest -->
+        <test-method status="PASS" signature="secondCharUpperCaseNamesTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="secondCharUpperCaseNamesTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="convert a model with a 2nd char upper-case property names" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondCharUpperCaseNamesTest -->
+        <test-method status="PASS" signature="squareBracketsTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="squareBracketsTest" duration-ms="1" started-at="2018-01-31T19:20:16Z" description="convert query[password] to queryPassword" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squareBracketsTest -->
+        <test-method status="PASS" signature="upperCaseNamesTest()[pri:0, instance:io.swagger.codegen.java.JavaModelTest@56aac163]" name="upperCaseNamesTest" duration-ms="0" started-at="2018-01-31T19:20:16Z" description="convert a model with upper-case property names" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upperCaseNamesTest -->
+      </class> <!-- io.swagger.codegen.java.JavaModelTest -->
+      <class name="io.swagger.codegen.ignore.rules.FileRuleTest">
+        <test-method status="PASS" signature="testGlobbingNotRecursive()[pri:0, instance:io.swagger.codegen.ignore.rules.FileRuleTest@d44fc21]" name="testGlobbingNotRecursive" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGlobbingNotRecursive -->
+        <test-method status="PASS" signature="testNonMatchComplex()[pri:0, instance:io.swagger.codegen.ignore.rules.FileRuleTest@d44fc21]" name="testNonMatchComplex" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonMatchComplex -->
+        <test-method status="PASS" signature="testMatchComplex()[pri:0, instance:io.swagger.codegen.ignore.rules.FileRuleTest@d44fc21]" name="testMatchComplex" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatchComplex -->
+        <test-method status="PASS" signature="testGlobbingRecursive()[pri:0, instance:io.swagger.codegen.ignore.rules.FileRuleTest@d44fc21]" name="testGlobbingRecursive" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGlobbingRecursive -->
+      </class> <!-- io.swagger.codegen.ignore.rules.FileRuleTest -->
+      <class name="io.swagger.codegen.ExampleGeneratorTest">
+        <test-method status="PASS" signature="recursiveModelsTest()[pri:0, instance:io.swagger.codegen.ExampleGeneratorTest@a7e666]" name="recursiveModelsTest" duration-ms="2" started-at="2018-01-31T19:20:16Z" description="check handling of recursive models" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recursiveModelsTest -->
+      </class> <!-- io.swagger.codegen.ExampleGeneratorTest -->
+      <class name="io.swagger.codegen.java.AbstractJavaCodegenTest">
+        <test-method status="PASS" signature="toEnumVarNameShouldNotShortenUnderScore()[pri:0, instance:io.swagger.codegen.java.AbstractJavaCodegenTest@10bbd20a]" name="toEnumVarNameShouldNotShortenUnderScore" duration-ms="1" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toEnumVarNameShouldNotShortenUnderScore -->
+        <test-method status="PASS" signature="preprocessSwaggerWithNoFormOrBodyParamsDoesNotSetContentType()[pri:0, instance:io.swagger.codegen.java.AbstractJavaCodegenTest@10bbd20a]" name="preprocessSwaggerWithNoFormOrBodyParamsDoesNotSetContentType" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preprocessSwaggerWithNoFormOrBodyParamsDoesNotSetContentType -->
+        <test-method status="PASS" signature="preprocessSwaggerWithBodyParamsSetsContentType()[pri:0, instance:io.swagger.codegen.java.AbstractJavaCodegenTest@10bbd20a]" name="preprocessSwaggerWithBodyParamsSetsContentType" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preprocessSwaggerWithBodyParamsSetsContentType -->
+        <test-method status="PASS" signature="preprocessSwaggerWithFormParamsSetsContentType()[pri:0, instance:io.swagger.codegen.java.AbstractJavaCodegenTest@10bbd20a]" name="preprocessSwaggerWithFormParamsSetsContentType" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preprocessSwaggerWithFormParamsSetsContentType -->
+        <test-method status="PASS" signature="toModelNameUsesPascalCase()[pri:0, instance:io.swagger.codegen.java.AbstractJavaCodegenTest@10bbd20a]" name="toModelNameUsesPascalCase" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toModelNameUsesPascalCase -->
+        <test-method status="PASS" signature="toVarNameShouldAvoidOverloadingGetClassMethod()[pri:0, instance:io.swagger.codegen.java.AbstractJavaCodegenTest@10bbd20a]" name="toVarNameShouldAvoidOverloadingGetClassMethod" duration-ms="1" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVarNameShouldAvoidOverloadingGetClassMethod -->
+        <test-method status="PASS" signature="toModelNameShouldUseProvidedMapping()[pri:0, instance:io.swagger.codegen.java.AbstractJavaCodegenTest@10bbd20a]" name="toModelNameShouldUseProvidedMapping" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toModelNameShouldUseProvidedMapping -->
+      </class> <!-- io.swagger.codegen.java.AbstractJavaCodegenTest -->
+      <class name="io.swagger.codegen.utils.SemVerTest">
+        <test-method status="PASS" signature="atLeast()[pri:0, instance:io.swagger.codegen.utils.SemVerTest@5a1c0542]" name="atLeast" duration-ms="1" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atLeast -->
+        <test-method status="PASS" signature="parsingAndPrinting()[pri:0, instance:io.swagger.codegen.utils.SemVerTest@5a1c0542]" name="parsingAndPrinting" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parsingAndPrinting -->
+      </class> <!-- io.swagger.codegen.utils.SemVerTest -->
+      <class name="io.swagger.codegen.ClientAuthInputTest">
+        <test-method status="PASS" signature="clientAuthInputTest()[pri:0, instance:io.swagger.codegen.ClientAuthInputTest@627551fb]" name="clientAuthInputTest" duration-ms="17" started-at="2018-01-31T19:20:13Z" description="read a file upload param from a 2.0 spec" finished-at="2018-01-31T19:20:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clientAuthInputTest -->
+      </class> <!-- io.swagger.codegen.ClientAuthInputTest -->
+      <class name="io.swagger.codegen.ignore.rules.RootedFileRuleTest">
+        <test-method status="PASS" signature="testMatchFilenameAndExtension()[pri:0, instance:io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304]" name="testMatchFilenameAndExtension" duration-ms="1" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatchFilenameAndExtension -->
+        <test-method status="PASS" signature="testMatchFilenameAndExtensionWithExtensionGlob()[pri:0, instance:io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304]" name="testMatchFilenameAndExtensionWithExtensionGlob" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatchFilenameAndExtensionWithExtensionGlob -->
+        <test-method status="PASS" signature="testMatchFilenameAndExtensionWithFilenameGlob()[pri:0, instance:io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304]" name="testMatchFilenameAndExtensionWithFilenameGlob" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatchFilenameAndExtensionWithFilenameGlob -->
+        <test-method status="PASS" signature="testMatchFilenameAndExtensionWithMultiplePeriods()[pri:0, instance:io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304]" name="testMatchFilenameAndExtensionWithMultiplePeriods" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatchFilenameAndExtensionWithMultiplePeriods -->
+        <test-method status="PASS" signature="testMatchWithoutLeadingForwardSlash()[pri:0, instance:io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304]" name="testMatchWithoutLeadingForwardSlash" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatchWithoutLeadingForwardSlash -->
+        <test-method status="PASS" signature="testMatchFilenameOnly()[pri:0, instance:io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304]" name="testMatchFilenameOnly" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatchFilenameOnly -->
+        <test-method status="PASS" signature="testMatchesOnlyRooted()[pri:0, instance:io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304]" name="testMatchesOnlyRooted" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatchesOnlyRooted -->
+        <test-method status="PASS" signature="testNonMatchFilenameAndExtension()[pri:0, instance:io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304]" name="testNonMatchFilenameAndExtension" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonMatchFilenameAndExtension -->
+        <test-method status="PASS" signature="testMatchFilenameWithGlob()[pri:0, instance:io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304]" name="testMatchFilenameWithGlob" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatchFilenameWithGlob -->
+        <test-method status="PASS" signature="testNonMatchFilenameAndExtensionWithMultiplePeriods()[pri:0, instance:io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304]" name="testNonMatchFilenameAndExtensionWithMultiplePeriods" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonMatchFilenameAndExtensionWithMultiplePeriods -->
+        <test-method status="PASS" signature="testNonMatchFilenameOnly()[pri:0, instance:io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304]" name="testNonMatchFilenameOnly" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonMatchFilenameOnly -->
+        <test-method status="PASS" signature="testNonMatchFilenameAndExtensionWithFilenameGlob()[pri:0, instance:io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304]" name="testNonMatchFilenameAndExtensionWithFilenameGlob" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonMatchFilenameAndExtensionWithFilenameGlob -->
+        <test-method status="PASS" signature="testNonMatchFilenameWithGlob()[pri:0, instance:io.swagger.codegen.ignore.rules.RootedFileRuleTest@4e7dc304]" name="testNonMatchFilenameWithGlob" duration-ms="0" started-at="2018-01-31T19:20:16Z" finished-at="2018-01-31T19:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonMatchFilenameWithGlob -->
+      </class> <!-- io.swagger.codegen.ignore.rules.RootedFileRuleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
